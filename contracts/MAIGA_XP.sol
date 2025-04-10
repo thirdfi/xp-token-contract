@@ -6,7 +6,7 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
 
-contract XP is
+contract MAIGA_XP is
     Initializable,
     UUPSUpgradeable,
     OwnableUpgradeable,
@@ -19,7 +19,7 @@ contract XP is
     function initialize() public initializer {
         __Ownable_init(msg.sender);
         __UUPSUpgradeable_init();
-        __ERC20_init("XP Token", "XP");
+        __ERC20_init("MAIGA XP", "MAIGA_XP");
     }
 
     function mint(address to, uint256 amount) public onlyOwner {

@@ -1,17 +1,25 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-const XpModule = buildModule("XpModule", (m) => {
-  const xpImplementation = m.contract("XP", [], {
-    id: "XPTokenImplementationContract",
+const MaigaXpModule = buildModule("MaigaXpModule", (m) => {
+  const maigaXpImplementation = m.contract("MAIGA_XP", [], {
+    id: "MAIGA_XPTokenImplementationContract",
   });
 
-  const initData = m.encodeFunctionCall(xpImplementation, "initialize", []);
+  const initData = m.encodeFunctionCall(
+    maigaXpImplementation,
+    "initialize",
+    []
+  );
 
-  const xpProxy = m.contract("ERC1967Proxy", [xpImplementation, initData], {
-    id: "XpTokenProxyContract",
-  });
+  const maigaXpProxy = m.contract(
+    "ERC1967Proxy",
+    [maigaXpImplementation, initData],
+    {
+      id: "MaigaXpTokenProxyContract",
+    }
+  );
 
-  return { xpImplementation, xpProxy };
+  return { maigaXpImplementation, maigaXpProxy };
 });
 
-export default XpModule;
+export default MaigaXpModule;
