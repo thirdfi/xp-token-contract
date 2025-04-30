@@ -11,6 +11,7 @@ npx hardhat ignition deploy ignition/modules/Xp.ts --network opBnbMainnet
 
 ### MAIGA XP token contract
 Mainnet: 0x3cAfdB41C9866655C278064E90F8781c9CBC9E03
+
 Testnet: 0x183738640C37341fDf9b27902473CFD85d853a93
 
 ## Boost contract Deployment
@@ -24,4 +25,5 @@ npx hardhat ignition deploy ignition/modules/Boost.ts --network opBnbMainnet
 
 ### Boost contract
 Mainnet: 
+
 Testnet: 0x5BfB81828acb5d11d60Dc34961e1f56802EC658E
