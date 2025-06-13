@@ -2,7 +2,7 @@
   "name": "hardhat-project",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.19"
+    "hardhat": "^2.24.2"
   },
   "dependencies": {
     "@openzeppelin/contracts-upgradeable": "^5.2.0",
