@@ -23,3 +23,9 @@ const BoostModule = buildModule("BoostModule", (m) => {
 });
 
 export default BoostModule;
+
+// npx hardhat ignition deploy ignition/modules/Boost.ts --network opBnbMainnet
+// npx hardhat ignition verify chain-204 --include-unrelated-contracts
+
+// BoostModule#BoostImplementationContract - 0x828ef758fbaf7B1Ab46d40997E41C6397A159827
+// BoostModule#BoostProxyContract - 0xAaCc0143ebcAD38E3D405008e4E30BF5214c02af
