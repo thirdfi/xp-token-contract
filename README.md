@@ -24,6 +24,6 @@ npx hardhat ignition deploy ignition/modules/Boost.ts --network opBnbMainnet
 2. opBNB Scan doesn't support script verification, need to verify the contract manually. From ignition/deployments/chain-204/build-info/<some_hash>.json, copy the input object and save as input.json. Use this input.json to verify the contract via standard-json-input.
 
 ### Boost contract
-Mainnet: 
+Mainnet: 0xAaCc0143ebcAD38E3D405008e4E30BF5214c02af
 
 Testnet: 0x5BfB81828acb5d11d60Dc34961e1f56802EC658E
