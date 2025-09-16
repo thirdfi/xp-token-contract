@@ -21,6 +21,19 @@ const config: HardhatUserConfig = {
       accounts: [process.env.PRIVATE_KEY!],
       chainId: 5611,
     },
+    bnbMainnet: {
+      url: process.env.BNB_MAINNET_URL,
+      accounts: [process.env.PRIVATE_KEY!],
+      chainId: 56,
+    },
+    bnbTestnet: {
+      url: process.env.BNB_TESTNET_URL,
+      accounts: [process.env.PRIVATE_KEY!],
+      chainId: 97,
+    },
+  },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY,
   },
 };
 
