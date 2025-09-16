@@ -27,3 +27,8 @@ npx hardhat ignition deploy ignition/modules/Boost.ts --network opBnbMainnet
 Mainnet: 0xAaCc0143ebcAD38E3D405008e4E30BF5214c02af
 
 Testnet: 0x5BfB81828acb5d11d60Dc34961e1f56802EC658E
+
+### BoostV2 contract
+Mainnet:
+
+Testnet: 0x6fC8E49d1fB8C3bF1b1E835BcF72BDdC3b5D8275
