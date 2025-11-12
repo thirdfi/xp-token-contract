@@ -2,8 +2,8 @@ import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 import { ethers } from "ethers";
 
 const NATIVE_BOOST_FEE = ethers.parseEther("0.003");
-const MAIGA_BOOST_FEE = ethers.parseEther("1");
-const MAIGA_TOKEN_ADDRESS = "0xB983874040f60fcb06929a11096698b465cE95Fa";
+const MAIGA_BOOST_FEE = ethers.parseEther("100");
+const MAIGA_TOKEN_ADDRESS = "0xcd1679f117E81DEfc4f0009311DDc23fC1AE4a5E";
 
 const BoostV2Module = buildModule("BoostV2Module", (m) => {
   const boostV2Implementation = m.contract("BoostV2", [], {
